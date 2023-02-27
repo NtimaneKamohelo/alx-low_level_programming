@@ -10,7 +10,7 @@ void _puts(char *str)
 	{
 		return;
 		_putchar(*str);
-		_putchar(++*str);
+		_putchar(*str++);
 	}
 	_putchar('\n');
 }
