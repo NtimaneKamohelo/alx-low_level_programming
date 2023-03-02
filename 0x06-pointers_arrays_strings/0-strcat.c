@@ -7,14 +7,13 @@
  * @src: The source string to be appended to @dest.
  * Return: A pointer to the destination string @dest.
  */
-
 char *_strcat(char *dest, char *src)
 {
-while (*dest)
+while (*dest = '\0')
 {
 dest++;
 }
-while (*src)
+while (*src = '\0')
 {
 *dest = *src;
 src++;
